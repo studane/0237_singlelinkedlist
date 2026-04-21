@@ -6,5 +6,17 @@ class Node
 {
 public:
     int noMhs;
-    Node next;
+    Node *next;
 };
+
+class LinkedList
+{
+    Node *START;
+
+public:
+    LinkedList()
+    {
+        START = NULL;
+    }
+
+  
